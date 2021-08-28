@@ -49,6 +49,88 @@
                     <i class="la la-angle-down"></i>
                 </a>
             </section>
+            
+            <section class="about-section" id="about">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>About <span>Me</span></h1>
+                        <p>Main information's about me</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-img text-right">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/1.jpg" alt="">
+                                <span class="shape1"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-7">
+                            <div class="about-content">
+                                <h1>I'm Tanbir Ahmed and <span class="typed"></span></h1>
+                                <p>Hi! My name is <strong>Tanbir Ahmed</strong>. I am a web & WordPress Developer, and I'm very passionate and dedicated to my work. With 3+ years experience as a professional Web & WordPress Developer. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                                <ul class="d-flex flex-wrap">
+                                    <li><span>Birthday:</span> 15.09.2000</li>
+                                    <li><span>Age:</span> 20</li>
+                                    <li><span>City:</span> Sylhet, Bangladesh</li>
+                                    <li><span>Website:</span> <a href="tanbirahmed.com">www.tanbirahmed.com</a></li>
+                                    <li><span>Study:</span> Class 10</li>
+                                    <li><span>Mail:</span> <a href="mailto:tanbirsylhet20@gmail.com">tanbirsylhet20@gmail.com</a></li>
+                                    <li><span>Phone:</span> +8801306614161</li>
+                                </ul>
+                                <div class="about-btns d-flex align-items-center">
+                                    <a href="" class="download-cv theme-btn" target="_blank">Download CV</a>
+                                    <a href="#contact" class="send-message theme-btn" target="_blank">Send Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-skills-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="section-heading">
+                                    <h1>Skills</h1>
+                                    <p>Some About my Abilities</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <ul class="skill-lists">
+                                    <li class="wordpress">
+                                        <span class="title-and-percent d-flex align-items-center justify-content-between">
+                                            <span class="title">WordPress</span>
+                                            <span class="percent">70%</span>
+                                        </span>
+                                        <div class="skill-bar"></div>
+                                    </li>
+                                    <li class="html">
+                                        <span class="title-and-percent d-flex align-items-center justify-content-between">
+                                            <span class="title">HTML</span>
+                                            <span class="percent">95%</span>
+                                        </span>
+                                        <div class="skill-bar"></div>
+                                    </li>
+                                    <li class="css">
+                                        <span class="title-and-percent d-flex align-items-center justify-content-between">
+                                            <span class="title">CSS</span>
+                                            <span class="percent">95%</span>
+                                        </span>
+                                        <div class="skill-bar"></div>
+                                    </li>
+                                    <li class="javascript">
+                                        <span class="title-and-percent d-flex align-items-center justify-content-between">
+                                            <span class="title">JavaScript</span>
+                                            <span class="percent">50%</span>
+                                        </span>
+                                        <div class="skill-bar"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
     
