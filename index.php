@@ -131,6 +131,39 @@
                     </div>
                 </div>
             </section>
+
+            <section class="portfolio-section" id="portfolio">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>Creative <span>Works</span></h1>
+                        <p>Check out my latest creative works</p>
+                    </div>
+                    
+                    <div class="filters filter-button-group portfolio-filters-btn">
+                        <ul class="d-flex align-items-center">
+                            <li class="active" data-filter="*">Show All</li>
+                            <li data-filter=".react">React</li>
+                            <li data-filter=".vue">Vue</li>
+                            <li data-filter=".wordpress-tm">WordPress</li>
+                        </ul>
+                    </div>
+
+                    <div class="content grid row">
+                        <div class="portfolio-item col-md-4 grid-item react ">
+                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item vue ">
+                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item wordpress-tm">
+                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item webdev">
+                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
     
