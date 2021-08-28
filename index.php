@@ -11,11 +11,11 @@
 </head>
 <body <?php body_class(  ); ?>>
 
-    <main class="personal-website-main d-flex flex-wrap">
-        <aside class="personal-sidebar-area">
-            <div class="sidebar-top-logo">
-                <a href="">
-                    <img src="" alt="">
+    <main class="personal-website-main">
+        <aside class="personal-sidebar-area d-flex flex-column justify-content-between">
+            <div class="sidebar-top-logo text-center">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.png" alt="">
                 </a>
             </div>
 
@@ -33,12 +33,15 @@
                     <a href="#contact"><i class="la la-envelope"></i> Contact</a>
                 </li>
             </ul>
+            <p class="copyright text-center">Copyright &copy; 2021</p>
         </aside>
 
         <div class="personal-content-area">
-            <section class="home-section" id="home">
+            <section class="home-section text-center" id="home">
                 <div class="home-content">
-                    <img src="" alt="">
+                    <div class="me-img">
+                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me.png" alt="">
+                    </div>
                     <h1>Tanbir <span>Ahmed</span></h1>
                     <h2>I'm a <span class="typed"></span></h2>
                 </div>
