@@ -82,7 +82,7 @@ body {
 .theme-btn:hover:before {
     transform: rotate(0);
     left: -5px;
-    bottom: -5px;
+    bottom: 0px;
 }
 
 li {
@@ -339,7 +339,6 @@ li {
 /* About Section */
 .about-section {
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 .about-img {
     position: relative;
@@ -473,6 +472,7 @@ li {
 
 /* Portfolio */
 .portfolio-section {
+    padding-top: 100px;
     padding-bottom: 70px;
 }
 .portfolio-item {
@@ -594,6 +594,81 @@ li {
     font-size: 24px;
     font-weight: 700;
     margin: 0;
+}
+
+
+
+/* Contact */
+.contact-form-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1px solid rgba(7,23,55,.1);
+}
+.contact-form-infos h1 {
+    font-weight: 500;
+    font-family: "Montserrat";
+    line-height: 1;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.contact-form-infos ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contact-form-infos ul li a,
+.contact-form-infos ul li {
+    color: #333;
+}
+.contact-form-infos ul li + li {
+    margin-top: 15px;
+}
+.contact-form-infos ul li span {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--secondary_color);
+    min-width: 80px;
+    display: inline-block;
+}
+.contact-form-infos ul li a:hover {
+    color: var(--primary_color);
+}
+.contact-form {
+    box-shadow: 0 0 40px rgb(4 18 48 / 15%);
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+}
+.contact-form .input-group {
+    margin-bottom: 15px;
+}
+.contact-form .input-group label {
+    font-weight: 600;
+    font-family: "Montserrat";
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+.contact-form .input-group textarea,
+.contact-form .input-group input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 20px;
+}
+.contact-form .input-group textarea:focus,
+.contact-form .input-group input:focus {
+    outline: none;
+    border-color: var(--primary_color);
+    box-shadow: none;
+}
+.contact-form .input-group textarea {
+    height: 100px;
+}
+.contact-form .send-message {
+    border: none;
 }
 
 

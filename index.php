@@ -263,6 +263,59 @@
                     </h1>
                 </div>
             </section>
+
+            <section class="contact-form-section" id="contact-form">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1>Contact <span>Me</span></h1>
+                        <p>Get in touch with me</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="contact-form-infos">
+                                <h1>Get in Touch</h1>
+                                <ul>
+                                    <li>
+                                        <span>Address: </span>Sylhet - Modina Market, Bangladesh
+                                    </li>
+                                    <li>
+                                        <span>Email: </span><a href="mailto:tanbirsylhet20@gmail.com">tanbirsylhet20@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <span>Phone: </span>+8801306614161
+                                    </li>
+                                    <li>
+                                        <span>Website: </span><a href="tanbirahmed.com">www.tanbirahmed.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="contact-form">
+                                <form>
+                                    <div class="input-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="email">Email</label>
+                                        <input type="text" id="email">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="subject">Subject</label>
+                                        <input type="text" id="subject">
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                    </div>
+                                    <button class="theme-btn send-message" type="submit">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
     
