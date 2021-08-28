@@ -69,8 +69,8 @@
                                 <h1>I'm Tanbir Ahmed and <span class="typed"></span></h1>
                                 <p>Hi! My name is <strong>Tanbir Ahmed</strong>. I am a web & WordPress Developer, and I'm very passionate and dedicated to my work. With 3+ years experience as a professional Web & WordPress Developer. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
                                 <ul class="d-flex flex-wrap">
-                                    <li><span>Birthday:</span> 15.09.2000</li>
-                                    <li><span>Age:</span> 20</li>
+                                    <li><span>Birthday:</span> 07.07.2000</li>
+                                    <li><span>Age:</span> 21</li>
                                     <li><span>City:</span> Sylhet, Bangladesh</li>
                                     <li><span>Website:</span> <a href="tanbirahmed.com">www.tanbirahmed.com</a></li>
                                     <li><span>Study:</span> Class 10</li>
@@ -149,19 +149,118 @@
                     </div>
 
                     <div class="content grid row">
-                        <div class="portfolio-item col-md-4 grid-item react ">
-                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                        <div class="portfolio-item col-md-4 grid-item wordpress-tm ">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/aduca-wp.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Aduca - <span>Education</span></h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="portfolio-item col-md-4 grid-item vue ">
-                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                        <div class="portfolio-item col-md-4 grid-item wordpress-tm ">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/minzel-wp.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Minzel - <span>Multipurpose</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item vue">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/costar-vue.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Costar - <span>Medical</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item react">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/dirto-react.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Dirto - <span>Directory</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item react">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/costar-react.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Costar - <span>Medical</span></h1>
+                                </div>
+                            </div>
                         </div>
                         <div class="portfolio-item col-md-4 grid-item wordpress-tm">
-                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/trizen-wp.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Trizen - <span>Hotel Booking</span></h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="portfolio-item col-md-4 grid-item webdev">
-                            <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+                        <div class="portfolio-item col-md-4 grid-item react">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/minzel-react.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Minzel - <span>Multipurpose</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item wordpress-tm">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/costar-wp.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Costar - <span>Medical</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item vue">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/vision-vue.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="" class="portfolio-live-preview">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Vision - <span>Tesla</span></h1>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <h1 class="many-more-portfolio text-center">
+                        And Many More...
+                    </h1>
                 </div>
             </section>
         </div>
