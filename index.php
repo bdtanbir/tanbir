@@ -292,7 +292,8 @@
                         </div>
                         <div class="col-md-7">
                             <div class="contact-form">
-                                <form>
+                                <?php echo do_shortcode( get_theme_mod( 'contact_form_shortcode' ) ); ?>
+                                <!-- <form>
                                     <div class="input-group">
                                         <label for="name">Name</label>
                                         <input type="text" id="name">
@@ -310,7 +311,7 @@
                                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
                                     </div>
                                     <button class="theme-btn send-message" type="submit">Send Message</button>
-                                </form>
+                                </form> -->
                             </div>
                         </div>
                     </div>

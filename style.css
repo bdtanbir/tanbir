@@ -643,12 +643,17 @@ li {
 }
 .contact-form .input-group {
     margin-bottom: 15px;
+    display: block;
+}
+.contact-form p {
+    margin: 0;
 }
 .contact-form .input-group label {
     font-weight: 600;
     font-family: "Montserrat";
     line-height: 21px;
     margin-bottom: 5px;
+    display: block;
 }
 .contact-form .input-group textarea,
 .contact-form .input-group input {

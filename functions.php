@@ -132,3 +132,9 @@ function personal_tm_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'personal_tm_scripts' );
 
+
+
+
+// Customizer
+require get_template_directory() . '/inc/customizer.php';
+
