@@ -194,7 +194,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/aduca-wp.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://aduca.techydevs.com" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Aduca - <span>Education</span></h1>
@@ -206,7 +206,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/minzel-wp.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://minzel.techydevs.com" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Minzel - <span>Multipurpose</span></h1>
@@ -218,7 +218,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/costar-vue.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://costar-vue.vercel.app/" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Costar - <span>Medical</span></h1>
@@ -230,7 +230,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/dirto-react.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://dirto-react.vercel.app/" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Dirto - <span>Directory</span></h1>
@@ -242,7 +242,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/costar-react.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://costar-react.vercel.app/" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Costar - <span>Medical</span></h1>
@@ -254,7 +254,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/trizen-wp.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://trizen.techydevs.com" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Trizen - <span>Hotel Booking</span></h1>
@@ -266,7 +266,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/minzel-react.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://minzel-react.vercel.app/" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Minzel - <span>Multipurpose</span></h1>
@@ -278,7 +278,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/costar-wp.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="http://costar.techydevs.com" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Costar - <span>Medical</span></h1>
@@ -290,7 +290,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/vision-vue.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="" class="portfolio-live-preview">
+                                    <a href="https://vision-vue.vercel.app/" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Vision - <span>Tesla</span></h1>
