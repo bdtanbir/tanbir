@@ -66,8 +66,10 @@
 
             if (scroll >= 100) {
                 $(".header-wrapper").addClass("active");
+                $(".back-to-top").show(200);
             } else {
                 $(".header-wrapper").removeClass("active");
+                $(".back-to-top").hide(200);
             }
         });
 

@@ -119,6 +119,29 @@ li {
     100% { opacity:1; }
 }
 
+.back-to-top {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
+    background: var(--primary_color);
+    color: var(--white_color);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+}
+.back-to-top:hover {
+    background: var(--secondary_color);
+    color: var(--white_color);
+}
 
 /* Next Section button */
 .go-to-btn {

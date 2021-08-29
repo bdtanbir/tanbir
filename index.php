@@ -360,6 +360,9 @@
         </div>
     </main>
     
+    <a href="#home" class="back-to-top">
+        <i class="la la-angle-up"></i>
+    </a>
 	<?php wp_footer(); ?>
 </body>
 </html>
