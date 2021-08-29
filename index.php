@@ -74,7 +74,7 @@
             <section class="home-section text-center" id="home">
                 <div class="home-content">
                     <div class="me-img">
-                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/logo.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me.png" alt="">
                         <span class="me-img-shapes position-absolute">
                             <span></span>
                             <span></span>
@@ -99,7 +99,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="about-img text-right">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/1.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/me-2.png" alt="">
                                 <span class="shape1"></span>
                             </div>
                         </div>
@@ -118,8 +118,8 @@
                                     <li><span>Phone:</span> +8801306614161</li>
                                 </ul>
                                 <div class="about-btns d-flex">
-                                    <a href="" class="download-cv theme-btn" target="_blank">Download CV</a>
-                                    <a href="#contact" class="send-message theme-btn" target="_blank">Send Message</a>
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/resume.pdf" class="download-cv theme-btn" target="_blank">Download CV</a>
+                                    <a href="#contact" class="send-message theme-btn">Send Message</a>
                                 </div>
                             </div>
                         </div>
