@@ -121,6 +121,7 @@ function personal_tm_scripts() {
 
     
 	wp_enqueue_script('lib-isotope-filter-js', '//unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js', array('jquery'), null, true);
+	wp_enqueue_script('lib-particles-js', '//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js', array('jquery'), null, true);
 	wp_enqueue_script('lib-typed-js', '//cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js', array('jquery'), null, true);
 	wp_enqueue_script('personal-tm-js', get_template_directory_uri().'/assets/js/main.js', array('jquery'), _S_VERSION, true);
 

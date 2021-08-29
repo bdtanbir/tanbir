@@ -72,6 +72,7 @@
 
         <div class="personal-content-area">
             <section class="home-section text-center" id="home">
+            <div id="particles-js"></div>
                 <div class="home-content">
                     <div class="me-img">
                         <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me.png" alt="">
