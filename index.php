@@ -107,7 +107,7 @@
                         <div class="col-md-7">
                             <div class="about-content">
                                 <h1>I'm Tanbir Ahmed and <span class="typed"></span></h1>
-                                <p>Hi! My name is <strong>Tanbir Ahmed</strong>. I am a web & WordPress Developer, and I'm very passionate and dedicated to my work. With 3+ years experience as a professional Web & WordPress Developer. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                                <p>Hi! My name is <strong>Tanbir Ahmed</strong>. I am a web & WordPress Developer, fast typing speed, and I'm very passionate and dedicated to my work. With 4+ years experience as a professional Web & WordPress Developer. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
                                 <ul class="d-flex flex-wrap">
                                     <li><span>Birthday:</span> 07.07.2000</li>
                                     <li><span>Age:</span> 21</li>
