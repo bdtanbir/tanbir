@@ -75,7 +75,7 @@
             <div id="particles-js"></div>
                 <div class="home-content">
                     <div class="me-img">
-                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me .png" alt="">
+                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me.png" alt="">
                         <span class="me-img-shapes position-absolute">
                             <span></span>
                             <span></span>
@@ -100,7 +100,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="about-img text-right">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/me -2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/me-2.png" alt="">
                                 <span class="shape1"></span>
                             </div>
                         </div>
