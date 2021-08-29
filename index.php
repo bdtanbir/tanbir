@@ -75,7 +75,7 @@
             <div id="particles-js"></div>
                 <div class="home-content">
                     <div class="me-img">
-                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me .png" alt="">
                         <span class="me-img-shapes position-absolute">
                             <span></span>
                             <span></span>
@@ -100,7 +100,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="about-img text-right">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/me-2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/me -2.png" alt="">
                                 <span class="shape1"></span>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                     <li><span>Birthday:</span> 07.07.2000</li>
                                     <li><span>Age:</span> 21</li>
                                     <li><span>City:</span> Sylhet, Bangladesh</li>
-                                    <li><span>Website:</span> <a href="tanbirahmed.com">www.tanbirahmed.com</a></li>
+                                    <li><span>Website:</span> <a href="http://tanbirahmed.unaux.com/">tanbirahmed.unaux.com/</a></li>
                                     <li><span>Study:</span> Class 10</li>
                                     <li><span>Mail:</span> <a href="mailto:tanbirsylhet20@gmail.com">tanbirsylhet20@gmail.com</a></li>
                                     <li><span>Phone:</span> +8801306614161</li>
@@ -326,7 +326,7 @@
                                         <span>Phone: </span>+8801306614161
                                     </li>
                                     <li>
-                                        <span>Website: </span><a href="tanbirahmed.com">www.tanbirahmed.com</a>
+                                        <span>Website: </span><a href="http://tanbirahmed.unaux.com/">http://tanbirahmed.unaux.com/</a>
                                     </li>
                                 </ul>
                             </div>
