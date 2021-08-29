@@ -11,8 +11,42 @@
 </head>
 <body <?php body_class(  ); ?>>
 
+    <header class="header-wrapper">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.png" alt="">
+                </a>
+                <div class="menu-bars d-flex align-items-center flex-column justify-content-between">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="responsive-sidebar position-fixed flex-column justify-content-between">
+        <i class="la la-times close-responsive-sidebar"></i>
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#home"><i class="la la-home"></i> Home</a>
+            </li>
+            <li>
+                <a href="#about"><i class="la la-user"></i> About</a>
+            </li>
+            <li>
+                <a href="#portfolio"><i class="la la-filter"></i> Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact"><i class="la la-envelope"></i> Contact</a>
+            </li>
+        </ul>
+        <p class="copyright text-center">Copyright &copy; 2021</p>
+    </div>
+
     <main class="personal-website-main">
-        <aside class="personal-sidebar-area d-flex flex-column justify-content-between">
+        <aside class="personal-sidebar-area flex-column justify-content-between">
             <div class="sidebar-top-logo text-center">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/logo.png" alt="">
@@ -40,7 +74,13 @@
             <section class="home-section text-center" id="home">
                 <div class="home-content">
                     <div class="me-img">
-                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/me.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(  ); ?>/assets/imgs/logo.png" alt="">
+                        <span class="me-img-shapes position-absolute">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
                     </div>
                     <h1>Tanbir <span>Ahmed</span></h1>
                     <h2>I'm a <span class="typed"></span></h2>
@@ -77,7 +117,7 @@
                                     <li><span>Mail:</span> <a href="mailto:tanbirsylhet20@gmail.com">tanbirsylhet20@gmail.com</a></li>
                                     <li><span>Phone:</span> +8801306614161</li>
                                 </ul>
-                                <div class="about-btns d-flex align-items-center">
+                                <div class="about-btns d-flex">
                                     <a href="" class="download-cv theme-btn" target="_blank">Download CV</a>
                                     <a href="#contact" class="send-message theme-btn" target="_blank">Send Message</a>
                                 </div>
@@ -140,7 +180,7 @@
                     </div>
                     
                     <div class="filters filter-button-group portfolio-filters-btn">
-                        <ul class="d-flex align-items-center">
+                        <ul class="d-flex align-items-center flex-wrap">
                             <li class="active" data-filter="*">Show All</li>
                             <li data-filter=".react">React</li>
                             <li data-filter=".vue">Vue</li>
@@ -264,7 +304,7 @@
                 </div>
             </section>
 
-            <section class="contact-form-section" id="contact-form">
+            <section class="contact-form-section" id="contact">
                 <div class="container">
                     <div class="section-heading">
                         <h1>Contact <span>Me</span></h1>

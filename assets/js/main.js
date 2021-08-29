@@ -3,6 +3,9 @@
     var $window = $(window);
 
     $window.on('load', function () {
+        var showResponsiveMenu = $(".menu-bars");
+        var hideResponsiveMenu = $(".close-responsive-sidebar");
+        var hideResponsiveMenu2 = $(".responsive-sidebar .sidebar-menu li a");
 
         // Typing
         if ($(".typed").length) {
@@ -57,6 +60,27 @@
                 $(this).addClass('active');
             });
         }
+
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 100) {
+                $(".header-wrapper").addClass("active");
+            } else {
+                $(".header-wrapper").removeClass("active");
+            }
+        });
+
+
+        showResponsiveMenu.on('click', function () {
+            $("body").addClass('active-responsive-menu');
+        });
+        hideResponsiveMenu.on('click', function () {
+            $("body").removeClass('active-responsive-menu');
+        });
+        hideResponsiveMenu2.on('click', function () {
+            $("body").removeClass('active-responsive-menu');
+        });
 
 
     });
