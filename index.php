@@ -30,19 +30,19 @@
         <i class="la la-times close-responsive-sidebar"></i>
         <ul class="sidebar-menu">
             <li>
-                <a href="#home"><i class="la la-home"></i> Home</a>
+                <a href="#home"><i class="la la-home"></i> <?php esc_html_e( 'Home', 'tanbir' ); ?></a>
             </li>
             <li>
-                <a href="#about"><i class="la la-user"></i> About</a>
+                <a href="#about"><i class="la la-user"></i> <?php esc_html_e( 'About', 'tanbir' ); ?></a>
             </li>
             <li>
-                <a href="#portfolio"><i class="la la-filter"></i> Portfolio</a>
+                <a href="#portfolio"><i class="la la-filter"></i> <?php esc_html_e( 'Portfolio', 'tanbir' ); ?></a>
             </li>
             <li>
-                <a href="#contact"><i class="la la-envelope"></i> Contact</a>
+                <a href="#contact"><i class="la la-envelope"></i> <?php esc_html_e( 'Contact', 'tanbir' ); ?></a>
             </li>
         </ul>
-        <p class="copyright text-center">Copyright &copy; 2021</p>
+        <p class="copyright text-center"><?php esc_html_e( 'Copyright &copy; 2021', 'tanbir' ); ?></p>
     </div>
 
     <main class="personal-website-main">
@@ -55,19 +55,19 @@
 
             <ul class="sidebar-menu">
                 <li>
-                    <a href="#home"><i class="la la-home"></i> Home</a>
+                    <a href="#home"><i class="la la-home"></i> <?php esc_html_e( 'Home', 'tanbir' ); ?></a>
                 </li>
                 <li>
-                    <a href="#about"><i class="la la-user"></i> About</a>
+                    <a href="#about"><i class="la la-user"></i> <?php esc_html_e( 'About', 'tanbir' ); ?></a>
                 </li>
                 <li>
-                    <a href="#portfolio"><i class="la la-filter"></i> Portfolio</a>
+                    <a href="#portfolio"><i class="la la-filter"></i> <?php esc_html_e( 'Portfolio', 'tanbir' ); ?></a>
                 </li>
                 <li>
-                    <a href="#contact"><i class="la la-envelope"></i> Contact</a>
+                    <a href="#contact"><i class="la la-envelope"></i> <?php esc_html_e( 'Contact', 'tanbir' ); ?></a>
                 </li>
             </ul>
-            <p class="copyright text-center">Copyright &copy; 2021</p>
+            <p class="copyright text-center"><?php esc_html_e( 'Copyright &copy; 2021', 'tanbir' ); ?></p>
         </aside>
 
         <div class="personal-content-area">
@@ -83,8 +83,8 @@
                             <span></span>
                         </span>
                     </div>
-                    <h1>Tanbir <span>Ahmed</span></h1>
-                    <h2>I'm a <span class="typed"></span></h2>
+                    <h1><?php esc_html_e( 'Tanbir', 'tanbir' ); ?> <span><?php esc_html_e( 'Ahmed', 'tanbir' ); ?></span></h1>
+                    <h2><?php esc_html_e( 'I\'m a', 'tanbir' ); ?> <span class="typed"></span></h2>
                 </div>
                 <a href="#about" class="go-to-btn go-to-about">
                     <i class="la la-angle-down"></i>
@@ -94,8 +94,8 @@
             <section class="about-section" id="about">
                 <div class="container">
                     <div class="section-heading">
-                        <h1>About <span>Me</span></h1>
-                        <p>Main information's about me</p>
+                        <h1><?php esc_html_e( 'About', 'tanbir' ); ?> <span><?php esc_html_e( 'Me', 'tanbir' ); ?></span></h1>
+                        <p><?php esc_html_e( "Main information's about me", "tanbir" ); ?></p>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
@@ -107,14 +107,25 @@
                         <div class="col-md-1"></div>
                         <div class="col-md-7">
                             <div class="about-content">
-                                <h1>I'm Tanbir Ahmed and <span class="typed"></span></h1>
-                                <p>Hi! My name is <strong>Tanbir Ahmed</strong>. I am a web & WordPress Developer, fast typing speed, and I'm very passionate and dedicated to my work. With 4+ years experience as a professional Web & WordPress Developer. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                                <h1><?php esc_html_e( "I'm Tanbir Ahmed and", "tanbir" ); ?> <span class="typed"></span></h1>
+                                <p>Hi! My name is <strong>Tanbir Ahmed</strong>. I am a web & WordPress Developer, fast typing speed, and I'm very passionate and dedicated to my work. With 3+ years experience as a professional Web & WordPress Developer. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                                <!-- 
+                                    Hi! My name is Tanbir Ahmed. I am submitting my resume for the position of Full-stack WordPress Developer. With 3+ years of experience as a professional full-stack wordpress developer, I am confident that I would make a valuable addition to the WPDeveloper team.
+
+                                    My professional experience includes designing and implementing web pages, user interfaces and plugins for WordPress, designing themes that are as functional as they are beautiful and working with a team of colleagues to create the best products possible.
+                                    Here are some highlights of my career thus far:
+                                    Worked as an full-stack WordPress Developer for 3+ years
+                                    Ensured consistent functionality and performance at all times
+                                    Used a variety of debugging tools
+                                    I hope to bring my programming skills.
+                                    I am grateful for your time and consideration, and I look forward to speaking with you further about this position.
+                                 -->
                                 <ul class="d-flex flex-wrap">
-                                    <li><span>Birthday:</span> 07.07.2000</li>
-                                    <li><span>Age:</span> 21</li>
-                                    <li><span>City:</span> Sylhet, Bangladesh</li>
-                                    <li><span>Website:</span> <a href="http://tanbirahmed.unaux.com/">tanbirahmed.unaux.com/</a></li>
-                                    <li><span>Study:</span> Class 10</li>
+                                    <li><span><?php esc_html_e( 'Birthday:', 'tanbir' ); ?></span> <?php esc_html_e( '07.07.2000', 'tanbir' ); ?></li>
+                                    <li><span><?php esc_html_e( 'Age:', 'tanbir' ); ?></span> <?php esc_html_e( '21', 'tanbir' ); ?></li>
+                                    <li><span><?php esc_html_e( 'City:', 'tanbir' ); ?></span> <?php esc_html_e( 'Sylhet, Bangladesh', 'tanbir' ); ?></li>
+                                    <li><span><?php esc_html_e( 'Website:', 'tanbir' ); ?></span> <a href="http://tanbirahmed.unaux.com/"><?php esc_html_e( 'tanbirahmed.unaux.com', 'tanbir' ); ?></a></li>
+                                    <li><span><?php esc_html_e( 'Study:', 'tanbir' ); ?></span> Class 10</li>
                                     <li><span>Mail:</span> <a href="mailto:tanbirsylhet20@gmail.com">tanbirsylhet20@gmail.com</a></li>
                                     <li><span>Phone:</span> +8801306614161</li>
                                 </ul>
@@ -231,7 +242,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/dirto-react.png">
 
                                 <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
-                                    <a href="https://dirto-react.vercel.app/" class="portfolio-live-preview" target="_blank">
+                                    <a href="https://techydevs.com/demos/themes/html/dirto-react-demo/" class="portfolio-live-preview" target="_blank">
                                         <i class="la la-eye"></i>
                                     </a>
                                     <h1>Dirto - <span>Directory</span></h1>
@@ -298,10 +309,67 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="portfolio-item col-md-4 grid-item vue">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/amani-vue.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="https://amani-git-main-kamalahmed.vercel.app/" class="portfolio-live-preview" target="_blank">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Amani - <span>Simple Shop</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item vue">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/beats-solo-pro-vue.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="https://beats-solo-pro.vercel.app/" class="portfolio-live-preview" target="_blank">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Beats Solo Pro - <span>Simple Shop</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item vue">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/judy-vue.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="https://judy-vue.vercel.app/" class="portfolio-live-preview" target="_blank">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Judy - <span>Simple Shop</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item vue">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/madison-james-vue.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="https://madisonjames-vue.vercel.app/" class="portfolio-live-preview" target="_blank">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Madison James</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-md-4 grid-item vue">
+                            <div class="portfolio-item-inner position-relative">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/sass-on-demand-vue.png">
+
+                                <div class="portfolio-item-overlay position-absolute text-center d-flex align-items-center flex-column justify-content-center">
+                                    <a href="https://sass-on-demand.vercel.app/" class="portfolio-live-preview" target="_blank">
+                                        <i class="la la-eye"></i>
+                                    </a>
+                                    <h1>Sass on Demand</h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h1 class="many-more-portfolio text-center">
-                        And Many More...
-                    </h1>
                 </div>
             </section>
 
